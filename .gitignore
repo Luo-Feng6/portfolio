@@ -1,0 +1,40 @@
+# ── 个人隐私 ─────────────────────────
+photo.jpg
+*证件照*
+个人档案*.json
+*评优*
+*微信*
+*.db
+*.sqlite
+*.sqlite3
+cookies*.txt
+.env
+.env.*
+config.local.*
+secrets.*
+
+# ── Python ──────────────────────────
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# ── Node ────────────────────────────
+node_modules/
+dist/
+build/
+
+# ── 大文件 ──────────────────────────
+*.mp4
+*.mov
+*.zip
+*.7z
+*.rar
+
+# ── 系统 ────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── 编辑器 ──────────────────────────
+.vscode/
+.idea/
