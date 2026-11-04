@@ -11,7 +11,7 @@
 |---|---|---|---|---|
 | 01 | [图片工具箱](https://github.com/Luo-Feng6/image-toolbox) | 28 件纯前端图片工具，本地处理不上传 | HTML / JS | 仓库首页 |
 | 02 | [B 站视频下载器](https://github.com/Luo-Feng6/bibilidown) | 离线视频下载与整理 | Electron / React / TS | 仓库首页 |
-| 03 | 海大课程表 | 教务数据导入 + 日历导出，单文件手机优先 | HTML / JS | 待建仓库 |
+| 03 | [海大课程表](https://github.com/Luo-Feng6/course-table) | 教务数据导入 + 日历导出，单文件手机优先 | HTML / JS | 仓库首页 |
 | 04 | 本地整合门户 | FastAPI 整合 15 个子项目的本地门户 | Python / FastAPI | 代码不公开（含个人数据），仅案例页 |
 | 05 | 第五人格小抄机 | 游戏点位 / 资料速查小插件 | JS | 仅案例页（点位图为游戏截图，未公开） |
 

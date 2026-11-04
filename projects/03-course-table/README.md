@@ -1,6 +1,8 @@
 # 海大课程表
 
 > 自用课程表工具：从教务系统导入课表，导出到手机系统日历；单文件 HTML，手机优先。
+>
+> 独立仓库：<https://github.com/Luo-Feng6/course-table>
 
 ## 背景与目标
 
@@ -43,14 +45,13 @@
 
 ## 如何运行
 
-代码在项目自己的目录，作品集仓库不放代码；独立仓库待建。
-
 ```bash
-# 电脑：双击
-app\海大课程表.html
+git clone https://github.com/Luo-Feng6/course-table.git
+cd course-table
 
-# 或起本地静态服务后在浏览器打开
-python -m http.server 8642 --directory app
+# 电脑：直接双击 海大课程表.html
+# 或起本地静态服务
+python -m http.server 8642
 ```
 
 手机：把 `海大课程表.html` 发到手机，用 Edge 打开（实测 iQOO + Edge 可用）。首次打开是演示数据，右上角「导入」可以粘贴或导入课表 JSON。
@@ -58,15 +59,10 @@ python -m http.server 8642 --directory app
 ## 目录结构
 
 ```
-海大课程表\
-├─ README.md                项目说明与阶段记录
-├─ 0-规划.md                调研、技术方案、阶段计划
-├─ 1-校历与调课设计.md       假期 / 调休 / 调课设计
-├─ 交接\                    01–05 交接文档
-├─ app\
-│  ├─ 海大课程表.html        应用本体（单文件，2,457 行）
-│  ├─ 教务课表导出书签.js     教务课表导出脚本
-│  ├─ 海大课程表-课表.json    课表数据文件
-│  └─ 桌面图标\              手机桌面图标三件套
-└─ _research\               参考项目与调研材料
+.
+├─ 海大课程表.html          应用本体（单文件，2,457 行）
+├─ 教务课表导出书签.js       教务页面抓取脚本
+├─ 示例课表.json            示例数据（虚构课程）
+├─ 桌面图标\                添加到手机主屏幕用的图标
+└─ index.html              跳转页，供 GitHub Pages 使用
 ```
